@@ -4,7 +4,18 @@ The function should return the average of all values in the array. If the array
 is empty, it should return null.
 */
 
-// Your code here 
+function avgVal(nums) {
+    let sum = 0;
+    let i = 0;
+    if (nums.length === 0) {
+        return null;
+    }
+    while (i < nums.length) {
+        sum += nums[i];
+        i++
+    }
+    return sum / i;
+}
 
 
 // console.log(avgVal([5, 10]));         // 7.5

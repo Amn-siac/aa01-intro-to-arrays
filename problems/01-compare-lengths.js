@@ -4,7 +4,14 @@ function should return true if the arrays have different lengths. The function
 should return false otherwise.
 */
 
-// Your code here 
+function compareLengths(arr1, arr2) {
+    if (arr1.length !== arr2.length) {
+        return true;
+    } else {
+        return false;
+    }
+
+}
 
 
 // let a1 = ['a', 'b', 'c'];

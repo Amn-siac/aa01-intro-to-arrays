@@ -2,7 +2,13 @@
 returns the total sum of all the numbers.
 */
 
-// Your code here 
+function sumArray(numArr) {
+    let sum = 0;
+    for (let i = 0; i < numArr.length; i++) {
+        sum += numArr[i];
+    }
+    return sum;
+}
 
 
 // console.log(sumArray([1, 2]));        // => 3
