@@ -5,7 +5,10 @@ into a single array where the first array's elements comes before the second
 array's elements. Research and use the Array.concat method on MDN.
 */
 
-// Your code here 
+function combineArrays(nums1, nums2) {
+    nums1 = nums1.concat(nums2);
+    return nums1;
+}
 
 
 // console.log(combineArrays([1, 2], [3, 4]));       // => [1, 2, 3, 4]
